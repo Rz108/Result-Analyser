@@ -1,0 +1,94 @@
+.desc{
+    background-color: rgb(158, 156, 156);
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 8px rgb(193, 193, 185);
+    margin-top: 20px;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+/* // price filter button */
+
+.price-input{
+    width: 100%;
+    display: flex;
+    margin: 20px 0 25px;
+    border-radius: 20px;
+    padding:15px;
+    box-shadow: 3px 3px 3px 3px ;
+  }
+  .price-input .field, .price-input .field2{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+  }
+  .field input, .field2 input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 19px;
+    margin-left: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(22, 22, 109);
+  }
+  
+  .price-input .separator{
+    width: 130px;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    height: 5px;
+    position: relative;
+    background: rgb(117, 117, 127);
+    border-radius: 5px;
+  }
+  .slider .progress{
+    height: 100%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    border-radius: 20px;
+    background: #b1b7b8;
+  }
+  .range{
+    position: relative;
+  }
+  #rangeBox .range input:first-child{
+    position: relative;
+    width: 100%;
+    top: -12px !important;
+    background: none;
+    pointer-events: none;
+    appearance: none;
+  }
+  #rangeBox .range input:nth-last-child(1){
+    position: relative;
+    width: 100%;
+    top: -36px !important;
+    background: none;
+    pointer-events: none;
+    appearance: none;
+  }
+  input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    pointer-events: auto;
+  }
+  
+
+  footer{
+    margin-top: 20px;
+  }
+
+  html{
+    width:100% !important
+  }
